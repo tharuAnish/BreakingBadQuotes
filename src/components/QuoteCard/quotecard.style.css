@@ -1,0 +1,32 @@
+.card {
+  width: 60vw;
+  height: 30vh;
+  display: grid;
+  place-content: center;
+  padding: 30px;
+  outline: 2px solid black;
+  outline-offset: -7px;
+  box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.199);
+  border-radius: 20px;
+  position: relative;
+}
+
+.quote {
+  font-weight: 400;
+}
+
+.author {
+  font: 0.8rem;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.cardButton {
+  padding: 15px 25px;
+  outline: 2px solid black;
+  outline-offset: -7px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.199);
+  position: absolute;
+  bottom: 17px;
+  right: 17px;
+}
