@@ -8,6 +8,7 @@
   outline-offset: -7px;
   box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.199);
   border-radius: 20px;
+  text-align: justify;
   position: relative;
 }
 
@@ -29,4 +30,15 @@
   position: absolute;
   bottom: 17px;
   right: 17px;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 90vw;
+  }
+  .cardButton {
+    position: fixed;
+    bottom: 13vh;
+    right: 25px;
+  }
 }

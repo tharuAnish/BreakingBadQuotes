@@ -18,9 +18,24 @@
   padding-right: 40px;
 }
 
-.bb {
-  font-family: HeartBreakingBad;
-  font-size: 60px;
-  position: relative;
-  top: 8px;
+@media screen and (max-width: 800px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .bbLogo {
+    height: 180px;
+    padding-right: 0px;
+  }
+  .bbText {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .bbText {
+    height: 54px;
+    max-width: 354px;
+  }
 }
