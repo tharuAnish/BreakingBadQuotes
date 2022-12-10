@@ -35,10 +35,11 @@ export default function Home() {
   return (
     <div className="wrapper">
       <div className="title">
-        <img src="" alt="" />
-        <h1 className="bbText">
-          <span class="bb">B</span>reaking <span class="bb">B</span>ad Quotes
-        </h1>
+        <img src="./BBlogo.png" alt="BBLogo" className="bbLogo" />
+        <img src="./BreakingBad.webp" alt="BreakingBad" className="bbText" />
+        {/* <h1 className="bbText">
+          <span class="bb">B</span>reaking <span class="bb">B</span>ad
+        </h1> */}
       </div>
       <div className="cardWrapper">
         {quote.length ? (

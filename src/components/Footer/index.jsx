@@ -1,9 +1,14 @@
 import "./footer.style.css"
 
 export default function Footer() {
+  const date = new Date().getFullYear()
+
   return (
-    <div>
-      <p>Footer</p>
+    <div className="footer">
+      <hr className="hr" />
+      <p className="footerText">
+        Copyright ©{date} - www.bbquotations.com - All rights reserved to
+      </p>
     </div>
   )
 }
