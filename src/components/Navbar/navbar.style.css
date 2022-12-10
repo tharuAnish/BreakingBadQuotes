@@ -3,7 +3,7 @@
   box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.123);
   display: grid;
   place-items: center;
-  outline: 2px solid black;
+  outline: 2px solid rgba(0, 0, 0, 0.801);
   outline-offset: -7px;
 }
 
