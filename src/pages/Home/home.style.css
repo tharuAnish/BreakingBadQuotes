@@ -1,0 +1,5 @@
+.cardWrapper {
+  height: 90vh;
+  display: grid;
+  place-content: center;
+}
