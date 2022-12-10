@@ -1,6 +1,6 @@
 .navbar {
   height: 66px;
-  box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.199);
+  box-shadow: 2px 5px 22px rgba(0, 0, 0, 0.123);
   display: grid;
   place-items: center;
   outline: 2px solid black;

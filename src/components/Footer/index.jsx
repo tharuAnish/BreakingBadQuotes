@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer">
       <hr className="hr" />
       <p className="footerText">
-        Copyright ©{date} - www.bbquotations.com - All rights reserved to
+        Copyright ©{date} - www.bbquotations.com - All rights reserved
       </p>
     </div>
   )
